@@ -216,4 +216,19 @@
     
 }
 
+/*-----------------Footers-----------------*/
+
+h2 {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a i {
+    font-size: 28px;
+    padding-left: 28px;
+    color: #17a2b8;
+}
 
