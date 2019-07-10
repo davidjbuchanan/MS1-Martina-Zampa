@@ -1,0 +1,266 @@
+/*-----------------Backgrounds-----------------*/
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/shutterstock_335981396.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+}
+
+/*-----------------Navbar-----------------*/
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-light .navbar-brand {
+    color: #17a2b8;
+    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+	-moz-transition: all 0.35s ease-in-out;	
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-light .navbar-brand:hover {						        /*target the FA icons in the social tab during the hover*/
+	color: #e86410;					            /*color them orange*/
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #17a2b8;
+    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+	-moz-transition: all 0.35s ease-in-out;	
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-light .navbar-nav .active>.nav-link:hover {						        /*target the FA icons in the social tab during the hover*/
+	color: #e86410;					            /*color them orange*/
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/*-----------------Jumbotron-----------------*/
+
+.jumbotron {
+    background-color: transparent;
+    color: #17a2b8;
+}
+
+/*-----------------Media queries-----------------*/
+
+@media (max-width:414px) {            /*phone = portrait*/
+
+    .heading-text {
+        font-size: 1.2rem;
+    }
+
+    .lead {
+        font-size: 1.0rem;
+    }
+
+    .jumbotron {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+ 
+    .callout-container {
+    height: 100vh;
+    background: url('../images/shutterstock_335981396crop3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    }
+    
+    .btn-lg {
+    padding: 0.2rem;
+    font-size: 1.0rem;
+    }
+}
+
+@media (min-width: 411px) and (max-width:767px) and (max-height: 414px) {         /*phone = landscape*/
+    .heading-text {
+        font-size: 1.8rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .jumbotron {
+        width: 390px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    
+    .btn-lg {
+    padding: 0.2rem;
+    font-size: 1.0rem;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) and (min-height: 376px) and (max-height: 812px) {        /*large phone = portrait*/
+    .heading-text {
+        font-size: 3.5rem;
+    }
+
+    .lead {
+        font-size: 1.5rem;
+    }
+
+    .jumbotron {
+        width: 500px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    
+    .callout-container {
+    height: 100vh;
+    background: url('../images/shutterstock_335981396.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) and (min-height: 813px) {    /*tablet = iPad portrait*/
+    .heading-text {
+        font-size: 2.5rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .jumbotron {
+        width: 464px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    .callout-container {
+    height: 100vh;
+    background: url('../images/shutterstock_335981396crop3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) and (min-height: 814px) { /*tablet = iPad pro portrait*/
+    .heading-text {
+        font-size: 5rem;
+    }
+
+    .lead {
+        font-size: 2.25rem;
+    }
+
+    .jumbotron {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .callout-container {
+    height: 100vh;
+    background: url('../images/shutterstock_335981396crop3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) and (max-height: 1023px) {
+    /*tablet = iPad pro & iPad landscape*/
+    .heading-text {
+        font-size: 3.5rem;
+    }
+
+    .lead {
+        font-size: 2rem;
+    }
+
+    .jumbotron {
+        width: 600px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) and (min-height: 1025px) {
+    /*desktop*/
+    .heading-text {
+        font-size: 5rem;
+    }
+
+    .lead {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron {
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) and (max-height: 1024px) {
+    /*desktop*/
+    .heading-text {
+        font-size: 5rem;
+    }
+
+    .lead {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron {
+        width: 800px;
+        margin-top: 160px;
+        margin-left: 50px;
+    }
+}
+
+/*-----------------Footers-----------------*/
+
+h2 {
+    text-align: center;
+    padding-left: 28px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a i {
+    font-size: 28px;
+    padding-top: 28px;
+    margin-left: 28px;
+    color: #17a2b8;
+    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+	-moz-transition: all 0.35s ease-in-out;	
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+}
+
+.social-links a i:hover {						/*target the FA icons in the social tab during the hover*/
+	color: #e86410;					            /*color them orange*/
+}
+
+.form-control {
+    width: 70%;
+}
