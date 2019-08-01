@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a0ff73228b.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Martina Zampa Home</title>
+    <title>Martina Zampa Contact</title>
 </head>
 
 <body>
@@ -37,19 +37,63 @@
         <!-- Callout -->
         <div class="container-fluid callout-container-home">
             <div class="row">
-                <div class="col-12">
-                    <section class="jumbotron">
-                        <h1 class="heading-text">Martina Zampa</h1>
-                        <p class="lead">I am a NYC based personal trainer focused on positive body images</p>
-                        <a class="btn btn-outline-info btn-lg" href="products.html">Services</a>
+                <div class="d-none d-md-block col-md-6">
+                    <section class="jumbotron-contact">
+                        <h1 class="heading-text">Get in contact</h1>
+                        <div class="center-form">
+                            <form>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-12 col-md-9 col-lg-6">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. jane@gmail.com" required>
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Tell me your goals and a bit about yourself</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
+                            </form>
+                        </div>
                     </section>
                 </div>
             </div>
         </div>
         <!-- /.callout -->
+        <div class="container-wrapper-contact">
+            <div class="container">
+                <section class="contact-sm">
+                    <div class="row">
+                        <div class="col-12 d-md-none">
+                            <h2>Get in contact by email</h2>
+                            <hr class="block-divider">
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. john@yahoo.com" required>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div id="invite" class="col-12">
+                                            <label class="sr-only" for="exampleFormControlTextarea1">Tell me your goals and a bit about yourself</label>
+                                            <textarea id="text" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="textHelp" placeholder="Tell me your goals and a bit about yourself; what are your goals"required></textarea>
+                                            <button type="submit" class="btn btn-info btn-md">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </article>
     <footer class="container-fluid">
-        <div class="row">
+        <div id="footer-details" class="row">
             <div class="d-none d-sm-block col-sm-6">
                 <h2 class="uppercase general-sub">Join the mailing list</h2>
                 <form>
