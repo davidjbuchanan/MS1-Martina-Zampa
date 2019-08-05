@@ -44,16 +44,16 @@
                             <form>
                                 <div class="form-group">
                                     <div class="row">
-                                        <div class="col-12 col-md-9 col-lg-6">
-                                            <label for="exampleInputEmail1">Email address</label>
+                                        <div class="col-12 col-md-9 col-lg-7">
+                                            <label for="exampleInputEmail1">Your email address</label>
                                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. jane@gmail.com" required>
-                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            <small id="emailHelpContact" class="form-text">I'll add you to the newsletter mailing list too. Don't worry, I'll not share your email.</small>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Tell me your goals and a bit about yourself</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="textHelp" placeholder="i.e. are your looking to focus on a specific body part or is it overall well being? How can I help you?" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-outline-info btn-lg">Submit</button>
                             </form>
@@ -74,13 +74,13 @@
                                 <div class="form-group">
                                     <label class="sr-only" for="exampleInputEmail1">Email address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. john@yahoo.com" required>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    <small id="emailHelp" class="form-text text-muted">I'll add you to the newsletter mailing list too. Don't worry. I'll not share your email.</small>
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
                                         <div id="invite" class="col-12">
                                             <label class="sr-only" for="exampleFormControlTextarea1">Tell me your goals and a bit about yourself</label>
-                                            <textarea id="text" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="textHelp" placeholder="Tell me your goals and a bit about yourself; what are your goals"required></textarea>
+                                            <textarea id="text" class="form-control" id="exampleFormControlTextarea1" rows="3" aria-describedby="textHelp" placeholder="Tell me a bit about yourself; what are your goals?" required></textarea>
                                             <button type="submit" class="btn btn-info btn-md">Submit</button>
                                         </div>
                                     </div>
@@ -94,25 +94,8 @@
     </article>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="d-none d-sm-block col-sm-6">
-                <h2 class="uppercase general-sub">Join the mailing list</h2>
-                <form>
-                    <div class="form-row">
-                        <div class="offset-2 col-8">
-                            <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                            <input type="email" required class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e.g. jane@gmail.com" required>
-                        </div>
-                        <div class="col-2">
-                            <button type="submit" class="btn btn-info btn-md">Submit</button>
-                        </div>
-                    </div>
-                    <div class="offset-1 col-10">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                </form>
-            </div>
-            <div class="col-12 col-sm-6 ">
-                <h2 class="uppercase general-sub">Let's get social</h2>
+            <div class="col-12">
+                <h2 id="social-margin" class="uppercase general-sub">Let's get social</h2>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a href="https://en-gb.facebook.com/" target="_blank">
