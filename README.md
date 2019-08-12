@@ -1,14 +1,11 @@
 # Martina Zampa Personal Trainer 
 ## David J. Buchanan's User Centric Frontend Development Milestone Project Submission
 
-Aheive confidence and body positivity through personal training with Martina Zampa. Whether it be as part of a lifestyle change or the continuation of an already satisfied existence Martina can tailor a bespoke training package to your needs to enable your goals to become a reality.
-This is your opportunity to grasp online: Read about Martina's skills and services; get in contact with her; and stay 'up-to-date' with her using the newsletter facility. 
-
-Martina specialises in yoga, HIT and strength training to provide a holistic & bespoke programme for you!  
+Acheive confidence and body positivity through personal training with Martina Zampa. Whether it be as part of a lifestyle change or the continuation of an already satisfied existence, this is your opportunity to get to the next level. By developing a bespoke training package that gives both holistic and focused benefits, Martina will work with you to create and maintain a positive body image. Martina specialises in yoga, HIT and strength training to provide a holistic & bespoke programme for you! 
+On this site you can read about Martina's skills and services; get in contact with her; and stay 'up-to-date' with her using the newsletter facility. 
 
 Note: This website provides a portal through which a fictional personal trainer (FPT) advertises her skills and services. In addition the website invites potential clients to contact her in order to solicit 
 services and or information via a newsletter. The FPT is based in New York city and as such the site supplies locations as rendezvous points for fictitious products.  
-
 
 ## UX
 
@@ -97,9 +94,6 @@ Fontawesome https://fontawesome.com/
 
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your 
-user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 All testing performed manually on Google Chrome, using the following scenarios:
 
@@ -107,13 +101,13 @@ All testing performed manually on Google Chrome, using the following scenarios:
 Go to the "Contact" page
 Try to submit the empty form and verify that an error message about the required fields appears - WORKS
 Try to submit the form with an invalid email address, i.e. missing '@', and verify that a relevant error message appears - WORKS
-Try to submit the form with all inputs valid and verify that a success message appears. - FAIL
+Try to submit the form with all inputs valid and verify that a success message appears. - FAIL (see Faeture 8 above)
 
 ### Mailing list form:
 Go to any page
 Try to submit the empty form and verify that an error message about the required fields appears - WORKS
 Try to submit the form with an invalid email address, i.e. missing '@', and verify that a relevant error message appears- WORKS
-Try to submit the form with all inputs valid and verify that a success message appears.- FAIL
+Try to submit the form with all inputs valid and verify that a success message appears.- FAIL (see Faeture 8 above)
 
 ### Social media links:
 Go to any page
@@ -128,7 +122,7 @@ Go to any page
 Try to click on the 'HOME' link or toggle button (& then links) and be directed to the site in question - WORKS
 
 ### Product links:
-Go to the "Products" page
+Go to the "Services" page
 Try to click on the link, have a new page open and be directed to the site in question - WORKS
 
 ### Responsive Design
@@ -160,9 +154,7 @@ Desktop
 
 ## Bugs 
 
-or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+To date there have been no identified bugs.
 
 ## Deployment
 
@@ -171,11 +163,9 @@ Deployment was on Github https://github.com/davidjbuchanan/User-Centric-Frontend
 ## Credits
 
 ### Text 
-All sections are fictional. 
-
-about section was copied from http://www.jilleverettpersonaltrainingnyc.com/about.html
-
-skills section was copied from https://www.puregym.com/personal-trainer/rainier-cocozza/
+All content is fictional, the "about" page was inspired by content from the following two pages
+http://www.jilleverettpersonaltrainingnyc.com/about.html &
+https://www.puregym.com/personal-trainer/rainier-cocozza/.
 
 
 ### Media
