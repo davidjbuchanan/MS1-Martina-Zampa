@@ -65,7 +65,7 @@
     display: flex;
 }
 
-.callout-container-products {
+.callout-container-services {
     height: 100vh;
     background: url('../images/barbell-building-challenge-1552252.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -99,7 +99,7 @@
     color: #17a2b8;
 }
 
-.jumbotron-products {
+.jumbotron-services {
     background-color: transparent;
     color: #17a2b8;
 }
@@ -120,6 +120,7 @@
 
     .lead {
         font-size: 1.0rem;
+        font-weight: 400;
     }
 
     .jumbotron {
@@ -160,11 +161,12 @@
 @media (max-width:414px) and (min-height: 569px) {            
 
     .heading-text {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     .lead {
-        font-size: 1.0rem;
+        font-size: 1.2rem;
+        font-weight: 500;
     }
 
     .jumbotron {
@@ -187,12 +189,12 @@
     font-size: 1.0rem;
     }
     
-    .heading-text-products {
+    .heading-text-services {
         font-size: 2.75rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 1.4rem;
         color: #0cd1f1;
     }   
@@ -274,12 +276,12 @@
         margin-left: 120px;
     }
     
-    .heading-text-products {
+    .heading-text-services {
         font-size: 2.75rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 1.4rem;
         color: #0cd1f1;
     }   
@@ -344,12 +346,12 @@
         font-size: 1rem;
     }
     
-    .heading-text-products {
+    .heading-text-services {
         font-size: 2.75rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 1.4rem;
         color: #0cd1f1;
     }   
@@ -405,12 +407,12 @@
     display: flex;
     }
     
-    .heading-text-products {
+    .heading-text-services {
         font-size: 3.5rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 1.75rem;
         color: #0cd1f1;
     }   
@@ -456,12 +458,12 @@
         margin-left: 150px;
     }
 
-    .heading-text-products {
+    .heading-text-services {
         font-size: 3.5rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 1.75rem;
         color: #0cd1f1;
     }    
@@ -510,12 +512,12 @@
         margin-left: 210px;
     }
     
-    .heading-text-products {
+    .heading-text-services {
         font-size: 4rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 2rem;
         color: #0cd1f1;
     } 
@@ -564,12 +566,12 @@
         margin-left: 380px;
     }
    
-    .heading-text-products {
+    .heading-text-services {
         font-size: 6rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 2.75rem;
         color: #0cd1f1;
     }  
@@ -618,12 +620,12 @@
         margin-left: 450px;
     }
    
-    .heading-text-products {
+    .heading-text-services {
         font-size: 6rem;
         color: #0cd1f1;
     }
 
-    .lead-products {
+    .lead-services {
         font-size: 2.75rem;
         color: #0cd1f1;
     }  
