@@ -101,10 +101,7 @@ In this section, you need to convince the assessor that you have conducted enoug
 user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-All testing performed manually on Google Chrome, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx using scenarios:
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
+All testing performed manually on Google Chrome, using the following scenarios:
 
 ### Contact form:
 Go to the "Contact" page
@@ -173,7 +170,7 @@ Deployment was on Github https://github.com/davidjbuchanan/User-Centric-Frontend
 
 ## Credits
 
-##### Text 
+### Text 
 All sections are fictional. 
 
 about section was copied from http://www.jilleverettpersonaltrainingnyc.com/about.html
@@ -181,10 +178,13 @@ about section was copied from http://www.jilleverettpersonaltrainingnyc.com/abou
 skills section was copied from https://www.puregym.com/personal-trainer/rainier-cocozza/
 
 
-##### Media
-The photos used in this site were obtained from stock suplies
-
+### Media
+#### The photos used in this site were obtained from stock supply sources and from the Code Institute:
 Shutterstock https://www.shutterstock.com/home
 
 Pexels https://www.pexels.com/
+
+https://codeinstitute.net/
+
+
 

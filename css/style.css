@@ -6,7 +6,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     max-width: 100%;
-  
 }
 
 /*-----------------Navbar-----------------*/
@@ -18,32 +17,31 @@
 
 .navbar-light .navbar-brand {
     color: #17a2b8;
-    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+    transition: all 0.35s ease-in-out;          
 	-moz-transition: all 0.35s ease-in-out;	
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-light .navbar-brand:hover {				/*target the FA icons in the social tab during the hover*/
-	color: #e86410;					            /*color them orange*/
+.navbar-light .navbar-brand:hover {				
+	color: #e86410;					            
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
     color: #17a2b8;
-    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+    transition: all 0.35s ease-in-out;          
 	-moz-transition: all 0.35s ease-in-out;	
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
 }
 
-.navbar-light .navbar-nav .active>.nav-link:hover {			/*target the FA icons in the social tab during the hover*/
-	color: #e86410;					                        /*color them orange*/
+.navbar-light .navbar-nav .active>.nav-link:hover {			
+	color: #e86410;					                        
 }
 
 .navbar-brand {
     font-weight: bold;
 }
-
 
 /*-----------------Containers-----------------*/
 
@@ -113,7 +111,8 @@
 
 /*-----------------Media queries-----------------*/
 
-@media (max-width:414px) and (max-height: 568px) {            /*phone = short portrait*/
+/*phone = short portrait*/
+@media (max-width:414px) and (max-height: 568px) {            
 
     .heading-text {
         font-size: 1.2rem;
@@ -157,7 +156,8 @@
     }
 }
 
-    @media (max-width:414px) and (min-height: 569px) {            /*phone = portrait*/
+   /*phone = portrait*/
+@media (max-width:414px) and (min-height: 569px) {            
 
     .heading-text {
         font-size: 1.2rem;
@@ -212,7 +212,8 @@
     }
 }
 
-@media (min-width: 400px) and (max-width:700px) and (max-height: 414px) {         /*md phone = landscape*/
+/*md phone = landscape*/
+@media (min-width: 400px) and (max-width:700px) and (max-height: 414px) {         
     .heading-text {
         font-size: 1.4rem;
     }
@@ -237,7 +238,8 @@
     }
 }
 
-@media (min-width: 700px) and (max-width:850px) and (max-height: 414px) {         /*lg phone = landscape*/
+/*lg phone = landscape*/
+@media (min-width: 700px) and (max-width:850px) and (max-height: 414px) {         
     .heading-text {
         font-size: 2.2rem;
     }
@@ -293,7 +295,8 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) and (min-height: 813px) {    /*tablet = iPad portrait*/
+/*tablet = iPad portrait*/
+@media (min-width: 768px) and (max-width: 991px) and (min-height: 813px) {    
     .heading-text {
         font-size: 3rem;
     }
@@ -358,7 +361,8 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) and (min-height: 814px) { /*tablet = iPad pro portrait*/
+/*tablet = iPad pro portrait*/
+@media (min-width: 992px) and (max-width: 1199px) and (min-height: 814px) { 
     .heading-text {
         font-size: 5rem;
     }
@@ -417,7 +421,8 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) and (max-height: 1023px) {    /*tablet = iPad landscape*/
+/*tablet = iPad landscape*/
+@media (min-width: 992px) and (max-width: 1199px) and (max-height: 1023px) {    
     .heading-text {
         font-size: 3.5rem;
     }
@@ -468,7 +473,8 @@
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1366px) and (max-height: 1024px) {   /*iPad pro landscape & small laptop*/
+/*iPad pro landscape & small laptop*/
+@media (min-width: 1200px) and (max-width: 1366px) and (max-height: 1024px) {   
     
     .heading-text {
         font-size: 5rem;
@@ -521,7 +527,8 @@
     }
 }
 
-@media (min-width: 1367px) and (max-width: 1700px) and (max-height: 1000px) {   /* desktop*/
+/* desktop*/
+@media (min-width: 1367px) and (max-width: 1700px) and (max-height: 1000px) {  
     
     .heading-text {
         font-size: 5rem;
@@ -574,7 +581,8 @@
     }
 }
 
-@media (min-width: 1701px) {   /* lg desktop*/
+/* lg desktop*/
+@media (min-width: 1701px) {   
     
     .heading-text {
         font-size: 5rem;
@@ -653,14 +661,14 @@ button {
     margin-right: 14px;
     margin-left: 14px;
     color: #17a2b8;
-    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+    transition: all 0.35s ease-in-out;          
 	-moz-transition: all 0.35s ease-in-out;	
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
 }
 
-.social-links a i:hover {						/*target the FA icons in the social tab during the hover*/
-	color: #e86410;					            /*color them orange*/
+.social-links a i:hover {						
+	color: #e86410;					            
 }
 
 .form-control {
@@ -671,19 +679,23 @@ button {
     text-align: center;
 }
 
+#social-margin {
+    margin-bottom: 0px;
+}
+
 /*-----------------Workouts-----------------*/
 
 .workouts a {
     color: #17a2b8;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;          /*overwrite FA’s class attributes by giving them a new transition for ux*/
+    transition: all 0.35s ease-in-out;          
 	-moz-transition: all 0.35s ease-in-out;	
 	-webkit-transition: all 0.35s ease-in-out;
 	-o-transition: all 0.35s ease-in-out;
 }
 
-.workouts a:hover {						/*target the FA icons in the social tab during the hover*/
-	color: #e86410;					            /*color them orange*/
+.workouts a:hover {						
+	color: #e86410;					            
 }
 
 /*-----------------Testimonials-----------------*/
@@ -693,6 +705,11 @@ button {
 
 .quotes p {
     text-align: left;
+}
+
+.media-body {
+    font-size: 1rem;
+    text-align: justify;
 }
 
 /*-----------------contact-----------------*/
@@ -705,6 +722,9 @@ button {
     text-align: center;
 }
 
+#emailHelpContact {
+    color: #17a2b8;
+}
 
 /*-----------------Dividers-----------------*/
 
@@ -727,11 +747,4 @@ button {
     height: 5px; 
     border: 0; 
     background-color: #444;
-}
-
-/*-----------------Dividers-----------------*/
-
-.media-body {
-    font-size: 1rem;
-    text-align: justify;
 }
