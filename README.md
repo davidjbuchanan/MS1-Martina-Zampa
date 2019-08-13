@@ -158,7 +158,7 @@ To date there have been no identified bugs.
 
 ## Deployment
 
-Deployment was on Github https://github.com/davidjbuchanan/User-Centric-Frontend-Development-Milestone-Project
+Deployment was on Github Pages https://davidjbuchanan.github.io/User-Centric-Frontend-Development-Milestone-Project/
 
 ## Credits
 
