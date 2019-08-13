@@ -99,30 +99,40 @@ All testing performed manually on Google Chrome, using the following scenarios:
 
 ### Contact form:
 Go to the "Contact" page
+
 Try to submit the empty form and verify that an error message about the required fields appears - WORKS
+
 Try to submit the form with an invalid email address, i.e. missing '@', and verify that a relevant error message appears - WORKS
-Try to submit the form with all inputs valid and verify that a success message appears. - FAIL (see Faeture 8 above)
+
+Try to submit the form with all inputs valid and verify that a success message appears. - FAIL (see Feature 8 above)
 
 ### Mailing list form:
 Go to any page
+
 Try to submit the empty form and verify that an error message about the required fields appears - WORKS
+
 Try to submit the form with an invalid email address, i.e. missing '@', and verify that a relevant error message appears- WORKS
-Try to submit the form with all inputs valid and verify that a success message appears.- FAIL (see Faeture 8 above)
+
+Try to submit the form with all inputs valid and verify that a success message appears.- FAIL (see Feature 8 above)
 
 ### Social media links:
 Go to any page
+
 Try to click on the link, have a new page open and be directed to the site in question - WORKS
 
 ### Navigation bar (large screen or larger):
 Go to any page
+
 Try to click on the links and be directed to the site in question - WORKS
 
 ### Navigation bar (medium screen or smaller):
 Go to any page
+
 Try to click on the 'HOME' link or toggle button (& then links) and be directed to the site in question - WORKS
 
 ### Product links:
 Go to the "Services" page
+
 Try to click on the link, have a new page open and be directed to the site in question - WORKS
 
 ### Responsive Design
