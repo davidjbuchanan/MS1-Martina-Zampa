@@ -164,7 +164,18 @@ Desktop
 
 ## Bugs 
 
-To date there have been no identified bugs.
+To date there have been no identified bugs on Google Chrome when inspecting on various viewport sizes. However the following issues were recorded when viewing the deployed site on an actual iPhone 6S
+
+<ol>
+<li>
+Footer texts deploys over two lines rather than just one on portrait viewport.
+</li>
+<li>
+Services page - background - is too dark and not centered on portrait or landscape viewports.
+</li>
+<li>
+README.md page can open at the top or bottom of the page, meaning the user has to scroll to the top on initially openning the page.
+</ol>
 
 ## Deployment
 
