@@ -179,7 +179,7 @@ README.md page can open at the top or bottom of the page, meaning the user has t
 
 ## Deployment
 
-Deployment was on Github Pages https://davidjbuchanan.github.io/User-Centric-Frontend-Development-Milestone-Project/
+Deployment was on Github Pages https://davidjbuchanan.github.io/MS1-Martina-Zampa/
 
 ## Credits
 
